@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale:">
+        <title>Library System</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- navbar section -->
+    <section>
+<nav class="child">
+<ul>
+  <li><a href="#">Library System</a></li>
+  <li><a href="#">Books</a></li>
+  <li><a href="#">Register</a></li>     
+</ul> 
+</nav>
+</section>
+
+<!-- books section -->
+<section class="books-details">
+  <h2 id="book">Books</h2>
+  <table
+    cellpadding="15px"
+    cellspacing="0"
+    border="1px"
+    class="table-of-details"
+  >
+    <h2>Books</h2>
+    <tr>
+      <th>Book ID</th>
+      <th>Tittle</th>
+      <th>Author</th>
+      <th>Genre</th>
+      <th>Avalable</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>
+        <a href="#">The Great Indian Novel</a>
+        <table cellspacing="0" border="1px">
+          <tr>
+            <td>Publication Date:2008</td>
+          </tr>
+          <tr>
+            <td>Page count:190</td>
+          </tr>
+          <tr>
+            <td>ISBN:12386678</td>
+          </tr>
+        </table>
+      </td>
+      <td>Shashi Tharoor</td>
+      <td>Satirical</td>
+      <td>Availabe</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>
+        <a href="#">Investrology</a>
+        <table cellspacing="0" border="1px">
+          <tr>
+            <td>Publication Date:2022</td>
+          </tr>
+          <tr>
+            <td>Page count:250</td>
+          </tr>
+          <tr>
+            <td>ISBN:12345678</td>
+          </tr>
+        </table>
+      </td>
+      <td>Pranjal kamra</td>
+      <td>Finance</td>
+      <td>Available</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>
+        <a href="#">BhagvatGita</a>
+        <table cellspacing="0" border="1px">
+          <tr>
+            <td>Publication Date:1970</td>
+          </tr>
+          <tr>
+            <td>Page count:280</td>
+          </tr>
+          <tr>
+            <td>ISBN:12345678</td>
+          </tr>
+        </table>
+      </td>
+      <td>Vyasa</td>
+      <td>Sanskrit</td>
+      <td>Available</td>
+    </tr>
+
+    <tr>
+      <td>4</td>
+      <td>
+        <a href="#">History of The Fort</a>
+        <table cellspacing="0" border="1px">
+          <tr>
+            <td>Publication Date:2000</td>
+          </tr>
+          <tr>
+            <td>Page count:160</td>
+          </tr>
+          <tr>
+            <td>ISBN:12345678</td>
+          </tr>
+        </table>
+      </td>
+      <td>Adarsh Shrama</td>
+      <td>comdey</td>
+      <td> Not Available</td>
+    </tr>
+
+    <tr>
+      <td>5</td>
+      <td>
+        <a href="#">Harry Potter</a>
+        <table cellspacing="0" border="1px">
+          <tr>
+            <td>Publication Date:2000</td>
+          </tr>
+          <tr>
+            <td>Page count:300</td>
+          </tr>
+          <tr>
+            <td>ISBN:12345678</td>
+          </tr>
+        </table>
+      </td>
+      <td>J K Rowling</td>
+      <td>Fantasy</td>
+      <td>Available</td>
+    </tr>
+  </table>
+</section>
+
+<!-- register section -->
+<div>
+<section>
+<h1>Register</h1>
+</section>
+<form method="post">
+
+    <div>
+    <label for="name">First Name</label><br>
+    <input type="text" id="name" name="name" required>
+     </div>
+
+     <div>
+    <label for="name">Last Name</label><br>
+    <input type="text" id="name" name="name" required><br>
+    </div>
+
+    <div> 
+    <label for="dob">Date of Birth</label><br>
+    <input type="date" id="dob" name="dob" required><br>
+    </div>
+
+        <div> 
+        <label for="age">Age</label><br>
+        <input type="number" id="age" name="age" minlength="6" maxlength="100" required><br>
+        </div>
+
+    <div>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" required><br>
+    </div>
+
+    <div>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password" required><br>
+    </div>
+
+    <div>
+    <label for="password">Confirm Password</label><br>
+    <input type="password" id="password" name="password" required><br>
+     </div>
+
+     <div>
+    <button type="submit" >Register</button>
+     </div>
+
+</form>
+</div>
+</body>
+</html>
